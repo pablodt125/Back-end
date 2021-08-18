@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      - "TZ=America/Bogota"
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=Juan1995*"
+    ports:
+      - "5432-5432"
+    volumes:
+      - "./sql:/docker-entrypoint-initdb.d"
