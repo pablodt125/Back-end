@@ -2,7 +2,7 @@
 Back-end
 El proyecto se realizó utilizando el framework de Java llamado SpringBoot 
 
-Para correr la app en localhost se debe:
+## Para correr la app en localhost se debe:
 
 1. Clonar el repositorio
 
@@ -15,7 +15,7 @@ Para correr la app en localhost se debe:
 5. Luego se debería levantar los servicios correctamente
 
 
-Ahora si por algún motivo el  paso 3 no funciona
+## Ahora si por algún motivo el  paso 3 no funciona
 
 1. Se deberá instalar postgresql
 
